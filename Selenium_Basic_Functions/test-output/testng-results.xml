@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10327" started-at="2020-01-31T04:39:01Z" finished-at="2020-01-31T04:39:11Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="Agrilone.loginWebApp()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="loginWebApp" class="TestNgDemo.Agrilone"/>
+        <method signature="carlone.loginWebApp()[pri:0, instance:TestNgDemo.carlone@5442a311]" name="loginWebApp" class="TestNgDemo.carlone"/>
+        <method signature="homelone.loginWebApp()[pri:0, instance:TestNgDemo.homelone@548e7350]" name="loginWebApp" class="TestNgDemo.homelone"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="10327" started-at="2020-01-31T04:39:01Z" finished-at="2020-01-31T04:39:11Z">
+      <class name="TestNgDemo.carlone">
+        <test-method status="PASS" signature="deletecookiees()[pri:0, instance:TestNgDemo.carlone@5442a311]" name="deletecookiees" is-config="true" duration-ms="0" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecookiees -->
+        <test-method status="PASS" signature="completecarlone()[pri:0, instance:TestNgDemo.carlone@5442a311]" name="completecarlone" duration-ms="1" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completecarlone -->
+        <test-method status="PASS" signature="loginWebApp()[pri:0, instance:TestNgDemo.carlone@5442a311]" name="loginWebApp" duration-ms="2" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWebApp -->
+        <test-method status="PASS" signature="loginmobileapp()[pri:0, instance:TestNgDemo.carlone@5442a311]" name="loginmobileapp" duration-ms="1" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmobileapp -->
+        <test-method status="PASS" signature="takecarlone()[pri:0, instance:TestNgDemo.carlone@5442a311]" name="takecarlone" duration-ms="3" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takecarlone -->
+      </class> <!-- TestNgDemo.carlone -->
+      <class name="TestNgDemo.homelone">
+        <test-method status="PASS" signature="runbeforclass()[pri:0, instance:TestNgDemo.homelone@548e7350]" name="runbeforclass" is-config="true" duration-ms="1" started-at="2020-01-31T10:09:11Z" finished-at="2020-01-31T10:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runbeforclass -->
+        <test-method status="PASS" signature="completehomelon()[pri:0, instance:TestNgDemo.homelone@548e7350]" name="completehomelon" duration-ms="1" started-at="2020-01-31T10:09:11Z" finished-at="2020-01-31T10:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completehomelon -->
+        <test-method status="PASS" signature="loginWebApp()[pri:0, instance:TestNgDemo.homelone@548e7350]" name="loginWebApp" duration-ms="0" started-at="2020-01-31T10:09:11Z" finished-at="2020-01-31T10:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWebApp -->
+        <test-method status="PASS" signature="loginmobileapp()[pri:0, instance:TestNgDemo.homelone@548e7350]" name="loginmobileapp" duration-ms="1" started-at="2020-01-31T10:09:11Z" finished-at="2020-01-31T10:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmobileapp -->
+        <test-method status="PASS" signature="takehome()[pri:0, instance:TestNgDemo.homelone@548e7350]" name="takehome" duration-ms="1" started-at="2020-01-31T10:09:11Z" finished-at="2020-01-31T10:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takehome -->
+        <test-method status="PASS" signature="deletehomeloan()[pri:0, instance:TestNgDemo.homelone@548e7350]" name="deletehomeloan" is-config="true" duration-ms="0" started-at="2020-01-31T10:09:11Z" finished-at="2020-01-31T10:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletehomeloan -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:TestNgDemo.homelone@548e7350]" name="afterclass" is-config="true" duration-ms="0" started-at="2020-01-31T10:09:11Z" finished-at="2020-01-31T10:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="closedallbrowser()[pri:0, instance:TestNgDemo.homelone@548e7350]" name="closedallbrowser" is-config="true" duration-ms="0" started-at="2020-01-31T10:09:11Z" finished-at="2020-01-31T10:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedallbrowser -->
+      </class> <!-- TestNgDemo.homelone -->
+      <class name="TestNgDemo.Agrilone">
+        <test-method status="PASS" signature="closedbrowser()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="closedbrowser" is-config="true" duration-ms="8" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbrowser -->
+        <test-method status="PASS" signature="checkseventwell()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="checkseventwell" is-config="true" duration-ms="0" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkseventwell -->
+        <test-method status="PASS" signature="completeAgrilone()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="completeAgrilone" duration-ms="6" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeAgrilone -->
+        <test-method status="PASS" signature="checkseventwellsucess()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="checkseventwellsucess" is-config="true" duration-ms="1" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkseventwellsucess -->
+        <test-method status="PASS" signature="loginWebApp()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="loginWebApp" duration-ms="1" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWebApp -->
+        <test-method status="PASS" signature="checkseventwell()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="checkseventwell" is-config="true" duration-ms="0" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkseventwell -->
+        <test-method status="PASS" signature="loginmobileapp()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="loginmobileapp" duration-ms="1" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmobileapp -->
+        <test-method status="PASS" signature="checkseventwellsucess()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="checkseventwellsucess" is-config="true" duration-ms="0" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkseventwellsucess -->
+        <test-method status="PASS" signature="checkseventwell()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="checkseventwell" is-config="true" duration-ms="0" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkseventwell -->
+        <test-method status="PASS" signature="checkseventwellsucess()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="checkseventwellsucess" is-config="true" duration-ms="1" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkseventwellsucess -->
+        <test-method status="PASS" signature="setvariables()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="setvariables" duration-ms="9" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setvariables -->
+        <test-method status="PASS" signature="checkseventwell()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="checkseventwell" is-config="true" duration-ms="0" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkseventwell -->
+        <test-method status="PASS" signature="checkseventwellsucess()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="checkseventwellsucess" is-config="true" duration-ms="0" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkseventwellsucess -->
+        <test-method status="PASS" signature="takeagrilone()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="takeagrilone" duration-ms="2" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeagrilone -->
+        <test-method status="PASS" signature="checkseventwell()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="checkseventwell" is-config="true" duration-ms="0" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkseventwell -->
+        <test-method status="PASS" signature="checkseventwellsucess()[pri:0, instance:TestNgDemo.Agrilone@53b32d7]" name="checkseventwellsucess" is-config="true" duration-ms="1" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkseventwellsucess -->
+      </class> <!-- TestNgDemo.Agrilone -->
+      <class name="TestNgDemo.openmultiplebrowser">
+        <test-method status="PASS" signature="initiatebrowser()[pri:0, instance:TestNgDemo.openmultiplebrowser@1a968a59]" name="initiatebrowser" duration-ms="10259" started-at="2020-01-31T10:09:01Z" finished-at="2020-01-31T10:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiatebrowser -->
+      </class> <!-- TestNgDemo.openmultiplebrowser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

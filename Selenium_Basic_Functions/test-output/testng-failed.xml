@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="TestNgDemo.listenersDemo"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestNgDemo.homelone">
+        <methods>
+          <include name="afterclass"/>
+          <include name="closedallbrowser"/>
+          <include name="runbeforclass"/>
+          <include name="deletehomeloan"/>
+        </methods>
+      </class> <!-- TestNgDemo.homelone -->
+      <class name="TestNgDemo.carlone">
+        <methods>
+          <include name="deletecookiees"/>
+        </methods>
+      </class> <!-- TestNgDemo.carlone -->
+      <class name="TestNgDemo.Agrilone">
+        <methods>
+          <include name="checkseventwellsucess"/>
+          <include name="closedbrowser"/>
+          <include name="checkseventwell"/>
+        </methods>
+      </class> <!-- TestNgDemo.Agrilone -->
+      <class name="TestNgDemo.openmultiplebrowser">
+        <methods>
+          <include name="initiatebrowser"/>
+        </methods>
+      </class> <!-- TestNgDemo.openmultiplebrowser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
